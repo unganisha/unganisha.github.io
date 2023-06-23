@@ -1,22 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-  }
-  
-  .background {
-    background-image: url('img/unganisha-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-image: url('img/unganisha-bg.jpg');
+    background-size: cover;
+    background-position: center;
   }
   
   .content {
     text-align: center;
     color: white;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   h1 {
@@ -27,6 +24,10 @@ body {
   .thumbnails {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin-top: 30px;
   }
   
   .thumbnails img {
