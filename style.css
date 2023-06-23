@@ -38,6 +38,6 @@ body {
   
   a {
     text-decoration: none;
-    color: white;
+    color:grey; /* Updated link text color */
   }
   
